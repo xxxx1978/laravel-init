@@ -14,8 +14,19 @@ return new class extends Migration
     public function up()
     {
         Schema::create('devices', function (Blueprint $table) {
+            $table->id('name');
+            $table->id('description');
+            $table->id('active');
+            $table->id('serial_number'); 
+            $table->id('mac_address');
+            $table->id('ip_'); 
+            $table->id(); 
+            $table->id(); 
             $table->id();
+            $table->id();
+
             $table->timestamps();
+
         });
     }
 

@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('sos', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('version');
+            $table->string('description');
+            $table->boolean('active')->default(true);
+            $table->string('description');
+            $table->boolean('active');
             $table->timestamps();
         });
     }
