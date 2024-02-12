@@ -20,9 +20,9 @@ $customizerHidden = 'customizer-hide';
       <div class="flex-row text-center mx-auto">
         {{-- <img src="{{asset('assets/img/pages/register-'.$configData['style'].'.png')}}" alt="Auth Cover Bg color" width="520" class="img-fluid authentication-cover-img" data-app-light-img="pages/register-light.png" data-app-dark-img="pages/register-dark.png"> --}}
         <div class="mx-auto">
-          <h3>A few clicks to get started 🚀</h3>
+          <h3>XXXXXXXXXXXXXXXXXXXXXXXX</h3>
           <p>
-            Let’s get started with your 14 days free trial and <br> start building your application today.
+            SSSSSSSSSSSSSSSSSSSSSSSSSS<br> YYYYYYYYYYYYYYYYYYYYY.
           </p>
         </div>
       </div>
@@ -42,8 +42,8 @@ $customizerHidden = 'customizer-hide';
         <!-- /Logo -->
 
         <!-- Register Card -->
-        <h4 class="mb-2">Adventure starts here 🚀</h4>
-        <p class="mb-4">Make your app management easy and fun!</p>
+        <h4 class="mb-2">Registro</h4>
+        <p class="mb-4">AAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
 
         <form id="formAuthentication" class="mb-3" action="{{ route('register') }}" method="POST">
           @csrf
